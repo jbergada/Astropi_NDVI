@@ -25,8 +25,8 @@ from aux_function.f_calc_ndvi import f_calc_ndvi
 ############# EJECUCION CODIGO ##########
 
 ####### LEER LA RUTA DE LAS FOTOS ######
-current_path = dirname(abspath(__file__))
-data_folder = 'data_photos'
+current_path = dirname(abspath(__file__))           # __file__ = opencv_example.py
+data_folder = 'data_photos'                         
 path_data = join(current_path, data_folder)
 
 ####### OBTIENE EL NOMBRE DE TODOS LOS ARCHIVOS DE IMAGEN ####
