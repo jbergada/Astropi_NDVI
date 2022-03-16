@@ -58,5 +58,5 @@ for file in files:
     # cv.imwrite('color_mapped_image.png', color_mapped_image)          # GUARDA IMAGEN (DESCOMENTAR PARA HACERLO)
 
     print("Procesado de imagen " + file + " hecho correctamente")
-
+    print("Procesado de imagen " + file + " hecho correctamente")
 
